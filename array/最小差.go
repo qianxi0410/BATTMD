@@ -13,12 +13,12 @@ func abs(a int) int {
 	return a
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
-	}
-	return b
-}
+//func min(a, b int) int {
+//	if a < b {
+//		return a
+//	}
+//	return b
+//}
 
 func smallestDifference(a []int, b []int) int {
 	sizea := len(a)
