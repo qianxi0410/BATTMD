@@ -11,6 +11,10 @@ type ListNode struct {
 	Next *ListNode
 }
 
+/**
+https://leetcode-cn.com/problems/list-of-depth-lcci/
+*/
+
 func listOfDepth(tree *TreeNode) []*ListNode {
 	res := make([]*ListNode, 0)
 	queue := make([]*TreeNode, 0)
