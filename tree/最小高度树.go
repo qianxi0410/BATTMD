@@ -2,6 +2,10 @@ package tree
 
 import "sort"
 
+/**
+https://leetcode-cn.com/problems/minimum-height-tree-lcci/comments/
+*/
+
 func build(nums []int, left, right int) *TreeNode {
 	if left > right {
 		return nil
