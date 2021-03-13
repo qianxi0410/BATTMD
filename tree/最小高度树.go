@@ -23,6 +23,5 @@ func build(nums []int, left, right int) *TreeNode {
 }
 
 func sortedArrayToBST(nums []int) *TreeNode {
-	sort.Ints(nums)
-	return build(nums, 0, len(nums))
+	return build(nums, 0, len(nums)-1)
 }
