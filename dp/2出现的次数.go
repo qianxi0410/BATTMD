@@ -2,6 +2,7 @@ package dp
 
 /**
 https://leetcode-cn.com/problems/number-of-2s-in-range-lcci/comments/
+for test
  */
 func numberOf2sInRange(n int) int {
 	res := 0
