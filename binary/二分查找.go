@@ -5,7 +5,6 @@ https://leetcode-cn.com/problems/binary-search/comments/
  */
 func search2(nums []int, target int) int {
 	l, r := 0, len(nums) - 1
-
 	for l < r {
 		mid := l + (r - l) >> 1
 		if nums[mid] < target {
@@ -17,4 +16,5 @@ func search2(nums []int, target int) int {
 		}
 	}
 	return -1
+
 }
