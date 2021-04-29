@@ -1,7 +1,7 @@
 package hot100
 
 func trap(height []int) int {
-	l,r := make([]int, len(height)), make([]int, len(height))
+	l, r := make([]int, len(height)), make([]int, len(height))
 
 	for i := 1; i < len(height); i++ {
 		l[i] = max(l[i - 1], height[i - 1])
