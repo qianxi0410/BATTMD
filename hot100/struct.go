@@ -31,3 +31,11 @@ func abs(a int) int {
 	}
 	return a
 }
+
+func boardColumn(board [][]int, columnIndex int) (column []int) {
+	column = make([]int, 0)
+	for _, row := range board {
+		column = append(column, row[columnIndex])
+	}
+	return
+}
