@@ -1,7 +1,5 @@
 package tree
 
-import "sort"
-
 /**
 https://leetcode-cn.com/problems/minimum-height-tree-lcci/comments/
 */
