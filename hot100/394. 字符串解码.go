@@ -6,7 +6,7 @@ import (
 )
 
 func decodeString(s string) string {
-	stk := []string{}
+	var stk []string
 	ptr := 0
 	for ptr < len(s) {
 		cur := s[ptr]
@@ -18,7 +18,7 @@ func decodeString(s string) string {
 			ptr++
 		} else {
 			ptr++
-			sub := []string{}
+			var sub []string
 			for stk[len(stk)-1] != "[" {
 				sub = append(sub, stk[len(stk)-1])
 				stk = stk[:len(stk)-1]
